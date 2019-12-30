@@ -1,11 +1,11 @@
 import UIKit
-func numberOfRotation (String:String) {
-    if String.count > 10 || String.isEmpty {
+func numberOfRotation (word:String) {
+    if word.count > 10 || word.isEmpty {
         print("Wrong Entry!")
     }
     else {
     let arrayOfChar:[Character] = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    let stringLiteral:String = String
+    let stringLiteral:String = word
     let characters = Array(stringLiteral)
     var counter = 0
     var i = 0
@@ -26,7 +26,7 @@ func numberOfRotation (String:String) {
         }
         i = 0
     }
-    print("The minimum number of rotations to write the string \(String) is \(counter) times")
+    print("The minimum number of rotations to write the string \(word) is \(counter) times")
 }
 }
-numberOfRotation(String: "ahmed")
+numberOfRotation(word: "ahmed")
