@@ -26,7 +26,7 @@ func numberOfRotation (String:String) {
         }
         i = 0
     }
-    print("You need to move the wheel \(counter) Times")
+    print("The minimum number of rotations to write the string \(String) is \(counter) times")
 }
 }
-numberOfRotation(String: "mazen")
+numberOfRotation(String: "ahmed")
