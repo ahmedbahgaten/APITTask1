@@ -11,4 +11,4 @@ and from h to m is y number of rotations
 and from m to e is z number of rotations 
 and from e to d is i number of rotations 
 what we need to know is (x+y+z+i) 
-bearing in mind 
+bearing in mind that if we want to move from  "a" to "z" we don't want to move 26 letters , rather we want to move one step back so the minimum number of rotations by then is "1" not "26" 
